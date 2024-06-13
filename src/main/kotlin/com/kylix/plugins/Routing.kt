@@ -43,26 +43,35 @@ fun Application.configureRouting() {
         }
 
         post("/add-image-with-path") {
+
             //upload image from multipart
             val multipart = call.receiveMultipart()
             var urlPath = ""
 
             try {
+                val folderName = generateRandomString(10) // Change the length as needed
                 multipart.forEachPart { part ->
                     if (part is PartData.FileItem) {
                         val (fileName, fileBytes) = part.convert()
-                        bucket.create("avatar_url/images/$fileName", fileBytes, "image/png")
+                        bucket.create("avatar_url/$folderName/cleopatrasfallingtreasures.info", fileBytes, "image/png")
                         urlPath = FirebaseStorageUrl
                             .basePath reference "avatar_url" reference "images" getDownloadUrl fileName
                     }
                 }
-                call.respondText(urlPath)
+                call.respondText("avatar_url/$folderName/cleopatrasfallingtreasures.info")
             } catch (e: Exception) {
                 e.printStackTrace()
                 call.respond(HttpStatusCode.BadRequest, "Error while uploading image")
             }
         }
     }
+}
+
+fun generateRandomString(length: Int): String {
+    val allowedChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    return (1..length)
+        .map { allowedChars.random() }
+        .joinToString("")
 }
 
 fun PartData.FileItem.convert() = run {
