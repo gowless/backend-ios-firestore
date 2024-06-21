@@ -78,7 +78,7 @@ fun Application.configureRouting() {
 //            }
 //        }
 
-        post("/sendFCMToken") {
+        get("/sendFCMToken") {
 
             val token = call.request.queryParameters["token"]
             val url = call.request.queryParameters["url"]
