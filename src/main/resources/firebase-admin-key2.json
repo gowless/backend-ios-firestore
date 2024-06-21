@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lucky-spin-master",
+  "private_key_id": "692803f18f12a31f1736c4cbd5410fb187b7bad4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFHGnjjbnleQlT\n12i/twDIeNTIHFHhDpfihPSvvONurSHDkkjOYODOETU0CBskP/Uk5d+rTY7XlZL9\nEiCbQc9gquP4rywx9dvYgCqx5SHB2C17ApSC7WF7A/wcacF8in63cXLT0QS1j807\n1fTTOA6YU2QYbMisp3jt5OhtnvdvnwdE5WYHUuExlmasODKKg0G4pCCs5exEy4Hz\nQT9tUqohYWdeoTX5okX53dECbxyPyt+Pi+tGcwf7kx8TASNRMElgRxZmDzb2q0SA\nbtItcEmbaDCtgCtvnfRbdMHk8Ad9v16BOQKGYGjJxdEusWFzU7+voM2UKrKJr7vD\ni1FwIkYvAgMBAAECggEAAuRPU2TVaN31OpMq+MEVFFvdd1AfDWe657peoqNpTMri\nd22SfuCh+7P57Vj/GPGNRazPssIxCc2qeecFrnFxOvBW5uOfCN6cCpmaxsBfVeo3\nhJn9lswnxXfB/6K3kX2wrT1PW3cyE/3Xm3ygmma0pBx5F/ikmw/b8NWOaWlPJQaQ\nJyDHcTTOc1Muq3Hdlpb2DSAXx3EaTweavhkodYiAB+HFA89CtqFcGLn/kDPKgS4J\nypSTCFOxu3G0MN9vHfOfQEJC7FN2RiUv64IGUf0hufgVY9kue2WCJARUlN3KJQWU\nBOuA0VbFHOGuMbJwlER1XOj5MlA9ynkhYw4mxNVd7QKBgQDyFShz4ci9abx6CYBC\n6WIHrirdgSnmf6r3pp+20FppC3+6ZoBDsjvRY5NFWLNDBSfDZy7Gxmfn3tyHFovf\nn4EItPoXNyrnnLaQhiitQjnV2WaAcBc2dzIAnwqOsHkXviEFU5kl45AFnz8jl5tS\n4BOKrTsAzRSsgxjgHlMbJQ7NwwKBgQDQcWMRTUci0FX/o4IC8cpkN/bTNAUKqQ+P\nkgQH9pLtx8pF6L71xOr84mnizoPhzZZ4g9tQuVwu2iroxdfpu1bNrjnpU8xSHlN4\njUJUTs2gD81oXs4tZQ30qUCjgqS6jHBowR8Q/wvoQEfSobNWaF/bL03xLXnW+bJz\nwhj5dYHDJQKBgHj77ACmGX3YRzKyZuCJ5M0z1QZok/k3Wsl0A6QI0vZmocoVigrL\nG6wU2LgykTxwaiP1AGKlK66tKYd11CfJfmJMmCRcFNw17OOjuNaGH4NpqBmOa3tz\n7JB064DOX2ZnRfd0hThzVzoIETUHgr/TbtDCrJdE5w0kY502apBJX/GjAoGAQ2/b\nwFZDJIVIvXtV7cPyWfgtN+mFlAxcR3PTMAxbPui7jWCen38FE6ng3gs4ac6M1xK5\n2uUNaO8WoNaZYzpD/ClY/R8qZIsBMGhrREF2j0ltiE3b4J3oJPa5Pe1fhCc5mvqY\nJXSOkqZxVjkQf20nTg+A5P10hNOmI4NxdwvIXq0CgYEA2asmcvjqr8Py/On1Eoxf\n14D0FTYiD7k+RVWpcbLedLQ7E2nK9LCJjxjlZeMk/0h5ODaezBULQUVu/ZABz7tt\nktD0qm/e7djDC8qwYBvYSRTKPPJsJK9F61Yt0tfgnBSp+J76fILZQGtCu68Ge6cA\nqpFX5lc4hWHRuCfP/sdztZE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-27rvf@lucky-spin-master.iam.gserviceaccount.com",
+  "client_id": "111721356297120841480",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-27rvf%40lucky-spin-master.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

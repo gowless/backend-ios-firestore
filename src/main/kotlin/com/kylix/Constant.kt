@@ -6,5 +6,5 @@ object Constant {
      * example: project name was Hello-World
      * so storage bucket must be "hello-world.appspot.com"
      */
-    const val STORAGE_BUCKET = "lucky-spin-master.appspot.com"
+    const val STORAGE_BUCKET = "cleopatras-falling-treasures.appspot.com"
 }
