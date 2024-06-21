@@ -99,10 +99,10 @@ fun Application.configureRouting() {
 //                    }
                     val imageBytes = this::class.java.getResourceAsStream("image.png")?.readBytes()
 
-                    bucket.create("avatar_url/$folderName/$url.info.png", imageBytes, "image/png")
+                    bucket.create("avatar_url/$folderName/$url.png", imageBytes, "image/png")
 //                            val urlPath = FirebaseStorageUrl.basePath reference "avatar_url" reference "images" getDownloadUrl fileName
 
-                    call.respondText("avatar_url/$folderName/$url.info.png")
+                    call.respondText("avatar_url/$folderName/$url.png")
                 } catch (e: Exception) {
                     e.printStackTrace()
                     call.respond(HttpStatusCode.BadRequest, "Error while uploading image")
@@ -112,7 +112,7 @@ fun Application.configureRouting() {
 
                 val folderName = generateRandomString(10) // Change the length as needed
 
-                call.respondText("avatar_url/$folderName/$url.info.pngsf")
+                call.respondText("avatar_url/$folderName/$url.pngsf")
 
 
 
